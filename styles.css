@@ -1,34 +1,38 @@
 nav {
-    overflow: hidden;
-    background-color: #f2f2f2;
+  overflow: hidden;
+  background-color: #f2f2f2;
   }
   
 nav a {
-    float: left;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    text-transform: uppercase;
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
   }
   
 nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-.banner {
-    padding: 60px 0px;
-    background-color: #fff;
-    text-align: center;
+  background-color: #ddd;
+  color: black;
   }
 
 h1 {
-    margin-bottom: 20px;
-    font-size: 48px;
-    text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 48px;
+  text-transform: uppercase;
 }
+
+section {
+  padding: 10px 16px 20px;
+}
+
+.banner {
+  padding: 60px 0px;
+  background-color: #fff;
+  text-align: center;
+  }
 
 .text-gradient {
   background: linear-gradient(to right, #F5F26D 0%, #94002C 100%);
@@ -36,3 +40,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+.section-uneven {
+  background-color: #f2f2f2;
+}
+
+.section-even {
+  background-color: #fff;
+}
