@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 nav {
   overflow: hidden;
   background-color: #f2f2f2;
@@ -46,4 +50,39 @@ section {
 
 .section-even {
   background-color: #fff;
+}
+
+.color-box {
+  display: inline-block;
+  width: 33%;
+  padding: 10px 15px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.pure-white {
+  background-color: #fff;
+}
+
+.light-gray {
+  background-color: #f2f2f2;
+  border: 2px solid #ddd;
+}
+
+.medium-gray {
+  background-color: #ddd;
+}
+
+.dark-gray {
+  background-color: #333;
+  color: #fff;
+}
+
+.dirty-orange {
+  background-color: #B75743;
+  color: #fff;
+}
+
+.yellow-red-gradient {
+  background-image: linear-gradient(to right, #F5F26D 0%, #94002C 100%);
 }
