@@ -86,3 +86,19 @@ section {
 .yellow-red-gradient {
   background-image: linear-gradient(to right, #F5F26D 0%, #94002C 100%);
 }
+
+.font-box {
+  display: inline-block;
+  width: 33%;
+  padding: 10px 15px;
+  margin: 15px auto;
+  border: 1px solid #333;
+}
+
+.fjalla-one {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.libre-baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
