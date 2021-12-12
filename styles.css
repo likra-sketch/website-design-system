@@ -18,4 +18,21 @@ nav a:hover {
     color: black;
   }
 
-  
+.banner {
+    padding: 60px 0px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #F5F26D 0%, #94002C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
