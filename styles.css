@@ -25,6 +25,7 @@ nav a:hover {
   }
 
 h1 {
+  margin-top: 0px;
   margin-bottom: 20px;
   font-size: 48px;
   text-transform: uppercase;
@@ -41,7 +42,7 @@ p {
 }
 
 section {
-  padding: 10px 16px 20px;
+  padding: 10px 16px 40px;
 }
 
 .banner {
@@ -124,4 +125,13 @@ section {
 
 .libre-baskerville {
   font-family: 'Libre Baskerville', serif;
+}
+
+.styles-heading {
+  margin: 10px 0px 5px;
+}
+
+.styles-text {
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
