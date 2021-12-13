@@ -37,6 +37,10 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 p {
   font-family: 'Libre Baskerville', serif;
 }
@@ -127,11 +131,14 @@ section {
   font-family: 'Libre Baskerville', serif;
 }
 
+.style-box{
+  margin: 0px 0px 20px;
+}
+
 .styles-heading {
   margin: 10px 0px 5px;
 }
 
 .styles-text {
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0px;
 }
