@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: #333;
 }
 
 nav {
@@ -15,6 +16,7 @@ nav a {
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
   }
   
 nav a:hover {
@@ -26,6 +28,16 @@ h1 {
   margin-bottom: 20px;
   font-size: 48px;
   text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
 }
 
 section {
@@ -78,8 +90,15 @@ section {
   color: #fff;
 }
 
+.dark-gray p {
+  color: #fff;
+}
+
 .dirty-orange {
   background-color: #B75743;
+}
+
+.dirty-orange p {
   color: #fff;
 }
 
@@ -96,6 +115,10 @@ section {
 }
 
 .fjalla-one {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.fjalla-one p {
   font-family: 'Fjalla One', sans-serif;
 }
 
