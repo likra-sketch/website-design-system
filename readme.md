@@ -15,8 +15,8 @@ This is how my solution to the project looks like:
 ## Built with
 
 * Visual Studio Code
-* HTML
-* CSS
+* HTML5
+* CSS3 (box model)
 * Markdown
 * Adobe Color
 * Google Fonts
